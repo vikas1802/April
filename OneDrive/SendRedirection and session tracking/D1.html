@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="process" method="get">
+<table>
+<tr>
+<td>Name:</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pwd"> </td>
+
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gen" value="Male">Male
+<input type="radio" name="gen" value="Female">Female
+</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea name="address" rows="4" cols="20"></textarea></td>
+</tr>
+<tr>
+<td>Qualification</td>
+<td>
+<select name="qlfy">
+<option value="">select qualification</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="MS">MS</option>
+<option value="BTECH">BTECH</option>
+<option value="MTECH">MTECH</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Skill Set</td>
+<td>
+<select name="skills" multiple="multiple" >
+<option value="java">Java</option>
+<option value=".net">.Net</option>
+<option value="sql">SQL</option>
+<option value="jquery">Jquery</option>
+<option value="angular">Angular</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Hobbies</td>
+<td>
+<input type="checkbox" name="hob" value="Tennis">Tennis
+<input type="checkbox" name="hob" value="Cricket">Cricket
+<input type="checkbox" name="hob" value="Swimming">Swimming
+</td>
+</tr>
+<tr>
+<td><input type = "submit" value="Submit"></td>
+<td><input type = "reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
